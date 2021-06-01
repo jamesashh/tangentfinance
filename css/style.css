@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@font-face {
+    font-family: batman;
+    src: url(../fonts/batmfa__.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #262626;
+    background: url(../images/1.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* Nav Bar Styles */
+.navbar{
+    position: fixed;
+    display: flex;
+    padding: 20px 20px;
+    z-index: 999;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar.sticky{
+    background: black;
+}
+
+.gradient{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(to right, yellow, rgb(123, 255, 0));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: "batman", Arial, Helvetica, sans-serif;
+}
+.green{
+    color: yellowgreen;
+}
+.menu{
+    position: fixed;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    right: -100%;
+    top: 0;
+    background: rgba(17, 17, 17, 0.9);
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.5s ease;
+    list-style: none;
+}
+.menu.active{
+    right: 0%;
+}
+.menu li{
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+}
+.menu li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 20px;
+}
+.drop-down{
+    z-index: 999;
+    color: white;
+}
+.drop-down i.active::before{
+    content: "\f00d";
+}
+
+/* Common styles */
+.container{
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+/* Home Styles */
+.homemax{
+    height: 100vh;
+    background: url("../images/1.jpg") no-repeat left fixed;
+    background-size: cover;
+}
+.home{
+    padding-top: 130px;
+}
+.top-part{
+    color: white;
+}
+.top-part h1{
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+.top-part h1 span{
+    font-weight: normal;
+    font-size: 35px;
+}
+.bottom-part .but1{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+.bottom-part .but2{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+.buy{
+    display: inline-block;
+    background: rgb(0, 0, 139);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+    border-radius: 6px;
+    box-shadow: 0 3px 32px rgb(0 0 177 / 54%);
+}
+.buy:hover{
+    background: rgb(0, 0, 255);
+}
+.white{
+    display: inline-block;
+    background: rgb(211, 137, 0);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+    border-radius: 6px;
+    box-shadow: 0 3px 32px rgb(255 165 0 / 54%);
+}
+.white:hover{
+    background: rgb(253, 165, 0);
+}
+
+/* About styles */
+.about-section{
+    background: linear-gradient(to bottom, #242223, #262626);
+    color: rgb(255, 254, 254);
+    padding: 5px 10px;
+}
+.about-section .title{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about-section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.about-section .title::after{
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #262626;
+    transform: translateX(-50%);
+    content: "who we are";
+}
+.points{
+    list-style: circle;
+    margin-left: 30px;
+}
+
+/* Services styles */
+.services-section .title{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.services-section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.services-section .title::after{
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #262626;
+    transform: translateX(-50%);
+    content: "Use Case";
+}
+.use-case{
+    width: 90%;
+    height: 33vh;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.icon i{
+    display: block;
+    font-size: 50px;
+}
+.mining{
+    background-color: orangered;
+}
+.DApp{
+    background-color: red;
+}
+.NFT{
+    background-color: green;
+}
+.DEX{
+    background-color: lightseagreen;
+}
+
+/* Roadmap Styles */
+.roadmap-section .title{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.roadmap-section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.roadmap-section .title::after{
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #262626;
+    transform: translateX(-50%);
+    content: "Our Plans";
+}
+.road-content-title{
+    color: white;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+}
+.roadmap{
+    color: grey;
+    list-style: square;
+}
+.roadmapp{
+    margin-left: 30px;
+}
+
+/* Tokenomics Styles */
+.tokenomics-section .title{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.tokenomics-section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.tokenomics-section .title::after{
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #262626;
+    transform: translateX(-50%);
+    content: "Token allocation";
+}
+
+/* Footer Styles */
+.footer{
+    background: #000;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+}
+.icons i{
+    color: green;
+}
+
+/* Desktop styles and media queries */
+@media screen and (min-width:580px) {
+   .bottom-part{
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       width: 60%;
+   }
+   .buy, .white{
+       width: 85%;
+   }
+   .bottom-part .but1,
+   .bottom-part .but2{
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .navbar {
+        padding: 20px 30px;
+    }
+    #drop{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        height: inherit;
+        width: initial;
+        right: 0;
+        top: 0;
+        text-align: center;
+        transition: all 0.5s ease;
+        padding: 0;
+        background: none;
+    }
+    .menu li {
+        text-align: center;
+        margin-top: 0px;
+        padding: 0;
+        margin-right: 15px;
+    }
+    .menu li a{
+        display: inline-block;
+        width: 100%;
+        font-weight: 500;
+        font-size: 15px;
+        transition: all 0.1s ease;
+    }
+    .menu li a:hover{
+        border-bottom: 2px solid white;
+    }
+    .bottom-part{
+        width: 40%;
+    }
+}
