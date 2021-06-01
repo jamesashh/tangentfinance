@@ -86,21 +86,23 @@ body{
 /* Home Styles */
 .homemax{
     height: 100vh;
-    background: url("../images/1.jpg") no-repeat left fixed;
+    background: url("../images/1.jpg") no-repeat center fixed;
     background-size: cover;
 }
 .home{
     padding-top: 130px;
 }
+
 .top-part{
     color: white;
+    margin-bottom: 50px;
 }
-.top-part h1{
+.top-part .header{
     font-weight: bolder;
     font-size: 40px;
     line-height: 40px;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .top-part h1 span{
     font-weight: normal;
@@ -120,7 +122,7 @@ body{
 }
 .buy{
     display: inline-block;
-    background: rgb(0, 0, 139);
+    background: green;
     color: white;
     width: 100%;
     height: 100%;
@@ -133,7 +135,7 @@ body{
 }
 .white{
     display: inline-block;
-    background: rgb(211, 137, 0);
+    background: rgb(219, 223, 7);
     color: white;
     width: 100%;
     height: 100%;
@@ -147,9 +149,10 @@ body{
 
 /* About styles */
 .about-section{
-    background: linear-gradient(to bottom, #242223, #262626);
+    background: #262626;
     color: rgb(255, 254, 254);
-    padding: 5px 10px;
+    padding: 30px 20px;
+    border-radius: 10px;
 }
 .about-section .title{
     text-align: center;
