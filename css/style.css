@@ -135,7 +135,7 @@ body{
 }
 .white{
     display: inline-block;
-    background: rgb(219, 223, 7);
+    background: linear-gradient(to right, #ff0c00, #ff3f00)
     color: white;
     width: 100%;
     height: 100%;
@@ -184,9 +184,21 @@ body{
     transform: translateX(-50%);
     content: "who we are";
 }
+.left{
+    margin-bottom: 30px;
+}
+.left h3{
+    margin-bottom: 20px;
+}
+.left .explain{
+    margin-bottom: 30px;
+}
 .points{
     list-style: circle;
     margin-left: 30px;
+}
+.points li{
+    margin-bottom: 10px;
 }
 
 /* Services styles */
