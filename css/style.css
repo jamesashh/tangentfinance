@@ -230,7 +230,7 @@ body{
     font-size: 20px;
     color: crimson;
     padding: 5px;
-    background: none;
+    background: #111;
     transform: translateX(-50%);
     content: "Use Case";
 }
@@ -293,7 +293,7 @@ body{
     font-size: 20px;
     color: crimson;
     padding: 5px;
-    background: none;
+    background: #111;
     transform: translateX(-50%);
     content: "Our Plans";
 }
@@ -338,7 +338,7 @@ body{
     font-size: 20px;
     color: crimson;
     padding: 5px;
-    background: none;
+    background: #111;
     transform: translateX(-50%);
     content: "Token allocation";
 }
