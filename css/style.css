@@ -135,7 +135,8 @@ body{
 }
 .white{
     display: inline-block;
-    background: linear-gradient(to right, #ff0c00, #ff3f00)
+    background: linear-gradient(to right, #ff0c00, #ff3f00),
+    -webkit-linear-gradient(to right, #ff0c00, #ff3f00);
     color: white;
     width: 100%;
     height: 100%;
@@ -229,7 +230,7 @@ body{
     font-size: 20px;
     color: crimson;
     padding: 5px;
-    background: #262626;
+    background: none;
     transform: translateX(-50%);
     content: "Use Case";
 }
@@ -292,7 +293,7 @@ body{
     font-size: 20px;
     color: crimson;
     padding: 5px;
-    background: #262626;
+    background: none;
     transform: translateX(-50%);
     content: "Our Plans";
 }
@@ -337,7 +338,7 @@ body{
     font-size: 20px;
     color: crimson;
     padding: 5px;
-    background: #262626;
+    background: none;
     transform: translateX(-50%);
     content: "Token allocation";
 }
