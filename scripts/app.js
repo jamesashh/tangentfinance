@@ -10,6 +10,15 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
+        if(this.scrollY > 400){
+            $('.scroll-up-btn').addClass("show");
+        }else{
+            $('.scroll-up-btn').removeClass("show");
+        }
+    });
+
+    $('.scroll-up-btn').click(function(){
+        $('html').animate({scrollTop: 0});
     });
 });
 
