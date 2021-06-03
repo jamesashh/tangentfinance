@@ -221,7 +221,6 @@ body{
 }
 .points li{
     margin-bottom: 10px;
-    text-align: justify;
     line-height: 25px;
 }
 .left h3{
@@ -405,6 +404,16 @@ b{
     transform: translateX(-50%);
     content: "Allocation";
 }
+.token-info-detail{
+    background: #262626;
+    color: rgb(255, 254, 254);
+    padding: 30px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Footer Styles */
 .footer{
@@ -417,6 +426,10 @@ b{
 .icons i{
     color: green;
     font-size: 20px;
+    margin: 10px;
+}
+.icons i:hover{
+    color: white;
 }
 
 /* Desktop styles and media queries */
@@ -611,5 +624,42 @@ b{
     }
     .DEX:hover{
         transform: scale(1.2);
+    }
+
+    /* Roadmap Desktop Styles */
+    .roadmap-section{
+        background: #262626;
+        color: rgb(255, 254, 254);
+        padding: 30px 40px;
+        border-radius: 10px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: 30px;
+    }
+
+    /* Token Desktop Styles */
+    .token-info{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .token-info-detail{
+        margin: auto;
+        width: 40%;
+        color: gray;
+    }
+    .token-info-detail h3{
+        color: white;
+        text-align: center;
+        position: relative;
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .token-info-chart{
+        margin: auto;
+        width: 40%;
     }
 }
