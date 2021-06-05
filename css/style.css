@@ -20,7 +20,7 @@ body{
 .navbar{
     position: fixed;
     display: flex;
-    padding: 20px 20px;
+    padding: 1.25em;
     z-index: 999;
     width: 100%;
     justify-content: space-between;
@@ -31,7 +31,7 @@ body{
 }
 
 .gradient{
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: 700;
     text-align: center;
     background: linear-gradient(to right, yellow, rgb(123, 255, 0));
@@ -52,7 +52,7 @@ body{
     top: 0;
     background: rgba(17, 17, 17, 0.9);
     text-align: center;
-    padding-top: 80px;
+    padding-top: 5em;
     transition: all 0.5s ease;
     list-style: none;
 }
@@ -61,14 +61,14 @@ body{
 }
 .menu li{
     text-align: center;
-    margin-top: 15px;
-    padding: 15px;
+    margin-top: 0.9375em;
+    padding: 0.9375em;
 }
 .menu li a{
     color: white;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 .drop-down{
     z-index: 999;
@@ -80,8 +80,8 @@ body{
 
 /* Common styles */
 .container{
-    padding: 0 20px;
-    margin-bottom: 30px;
+    padding: 0 1.25em;
+    margin-bottom: 1.875em;
 }
 /* Home Styles */
 .homemax{
@@ -90,19 +90,19 @@ body{
     background-size: cover;
 }
 .home{
-    padding-top: 130px;
+    padding-top: 8.125em;
 }
 
 .top-part{
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 3.125em;
 }
 .top-part .header{
     font-weight: bolder;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 2.5em;
+    line-height: 2.5em;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
 }
 .top-part h1 span{
     font-weight: normal;
@@ -110,13 +110,13 @@ body{
 }
 .bottom-part .but1{
     margin: auto;
-    margin-top: 30px;
+    margin-top: 1.875em;
     text-align: center;
     width: 100%;
 }
 .bottom-part .but2{
     margin: auto;
-    margin-top: 30px;
+    margin-top: 1.875em;
     text-align: center;
     width: 100%;
 }
@@ -127,13 +127,13 @@ body{
     color: white;
     width: 100%;
     height: 100%;
-    padding: 20px 10px;
-    border-radius: 6px;
-    box-shadow: 0 3px 32px rgb(0 166 0 / 54%);
+    padding: 1.25em 0.625em;
+    border-radius: 0.375em;
+    box-shadow: 0 0.1875em 2em rgb(0 166 0 / 54%);
 }
 .buy:hover{
     background: rgb(0, 255, 140);
-    box-shadow: 0 3px 32px rgb(0 255 140 / 54%);
+    box-shadow: 0 0.1875em 2em rgb(0 255 140 / 54%);
     transform: scale(1.05);
 }
 .white{
@@ -143,37 +143,37 @@ body{
     color: white;
     width: 100%;
     height: 100%;
-    padding: 20px 10px;
-    border-radius: 6px;
-    box-shadow: 0 3px 32px rgb(255, 63, 0);
+    padding: 1.25em 0.625em;
+    border-radius: 0.375em;
+    box-shadow: 0 0.1875em 2em rgb(255, 63, 0);
 }
 .white:hover{
     background: rgb(255, 115, 0);
-    box-shadow: 0 3px 32px rgb(255 115 0 / 54%);
+    box-shadow: 0 0.1875em 2em rgb(255 115 0 / 54%);
     transform: scale(1.05);
 }
 
 /* Scroll Up Styles */
 .scroll-up-btn{
     position: fixed;
-    height: 45px;
-    width: 42px;
+    height: 2.8125em;
+    width: 2.625em;
     background: green;
-    right: 30px;
-    bottom: 10px;
+    right: 1.875em;
+    bottom: 0.625em;
     text-align: center;
-    line-height: 45px;
+    line-height: 2.8125em;
     color: #fff;
     z-index: 9999;
-    font-size: 30px;
-    border-radius: 6px;
+    font-size: 1.875em;
+    border-radius: 0.375em;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
 }
 .scroll-up-btn.show{
-    bottom: 30px;
+    bottom: 1.875em;
     opacity: 1;
     pointer-events: auto;
 }
@@ -182,16 +182,16 @@ body{
 .about-section{
     background: #262626;
     color: rgb(255, 254, 254);
-    padding: 30px 20px;
-    border-radius: 10px;
+    padding: 1.875em 1.25em;
+    border-radius: 0.625em;
 }
 .about-section .title{
     text-align: center;
     position: relative;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 3.75em;
+    padding-bottom: 1.25em;
     font-family: 'Ubuntu', sans-serif;
 }
 .about-section .title::before{
@@ -199,45 +199,45 @@ body{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
-    height: 3px;
+    width: 11.25em;
+    height: 0.1875em;
     background: #111;
     transform: translateX(-50%);
 }
 .about-section .title::after{
     position: absolute;
-    bottom: -12px;
+    bottom: -0.9375em;
     left: 50%;
-    font-size: 20px;
+    font-size: 1.25em;
     color: green;
-    padding: 5px;
+    padding: 0.3125em;
     background: #262626;
     transform: translateX(-50%);
     content: "who we are";
 }
 .points{
     list-style: circle;
-    margin-left: 30px;
+    margin-left: 1.875em;
 }
 .points li{
-    margin-bottom: 10px;
-    line-height: 25px;
+    margin-bottom: 0.625em;
+    line-height: 1.5625em;
 }
 .left h3{
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 .left .explain{
-    margin-bottom: 20px;
-    line-height: 25px;
+    margin-bottom: 1.25em;
+    line-height: 1.5625em;
 }
 .img-wrap{
     width: 100%;
-    margin: 30px auto 0 auto;
+    margin: 1.875em auto 0 auto;
 }
 .explain-img{
     display: block;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.625em;
 }
 b{
     color: green;
@@ -247,10 +247,10 @@ b{
 .services-section .title{
     text-align: center;
     position: relative;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 3.75em;
+    padding-bottom: 1.25em;
     font-family: 'Ubuntu', sans-serif;
     color: white;
 }
@@ -259,18 +259,18 @@ b{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
-    height: 3px;
+    width: 11.25em;
+    height: 0.1875em;
     background: #111;
     transform: translateX(-50%);
 }
 .services-section .title::after{
     position: absolute;
-    bottom: -12px;
+    bottom: -0.9375em;
     left: 50%;
-    font-size: 20px;
+    font-size: 1.25em;
     color: green;
-    padding: 5px;
+    padding: 0.3125em;
     background: #111;
     transform: translateX(-50%);
     content: "Use Case";
@@ -278,8 +278,8 @@ b{
 .use-case{
     width: 90%;
     height: 33vh;
-    margin: 20px auto 20px auto;
-    border-radius: 10px;
+    margin: 1.25em auto 1.25em auto;
+    border-radius: 0.625em;
 
 }
 .icon{
@@ -292,7 +292,7 @@ b{
 }
 .icon i{
     display: block;
-    font-size: 50px;
+    font-size: 3.125em;
 }
 .mining{
     background: #515ada;
@@ -331,10 +331,10 @@ b{
 .roadmap-section .title{
     text-align: center;
     position: relative;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 3.75em;
+    padding-bottom: 1.25em;
     font-family: 'Ubuntu', sans-serif;
     color: white;
 }
@@ -343,18 +343,18 @@ b{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
-    height: 3px;
+    width: 11.25em;
+    height: 0.1875em;
     background: #111;
     transform: translateX(-50%);
 }
 .roadmap-section .title::after{
     position: absolute;
-    bottom: -12px;
+    bottom: -0.9375em;
     left: 50%;
-    font-size: 20px;
+    font-size: 1.25em;
     color: green;
-    padding: 5px;
+    padding: 0.3125em;
     background: #111;
     transform: translateX(-50%);
     content: "Our Plans";
@@ -362,24 +362,33 @@ b{
 .road-content-title{
     color: white;
     font-weight: bold;
-    margin: 10px 0 10px 0;
+    margin: 0.625em 0 0.625em 0;
 }
 .roadmap{
     color: grey;
     list-style: square;
 }
 .roadmapp{
-    margin-left: 30px;
+    margin-left: 1.875em;
+}
+.roadmap-section{
+    background: #262626;
+    color: rgb(255, 254, 254);
+    padding: 1.875em 2.5em;
+    border-radius: 0.625em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 1.875em;
 }
 
 /* Tokenomics Styles */
 .tokenomics-section .title{
     text-align: center;
     position: relative;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 3.75em;
+    padding-bottom: 1.25em;
     font-family: 'Ubuntu', sans-serif;
     color: white;
 }
@@ -388,18 +397,18 @@ b{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
-    height: 3px;
+    width: 11.25em;
+    height: 0.1875em;
     background: #111;
     transform: translateX(-50%);
 }
 .tokenomics-section .title::after{
     position: absolute;
-    bottom: -12px;
+    bottom: -0.9375em;
     left: 50%;
-    font-size: 20px;
+    font-size: 1.25em;
     color: green;
-    padding: 5px;
+    padding: 0.3125em;
     background: #111;
     transform: translateX(-50%);
     content: "Allocation";
@@ -407,12 +416,14 @@ b{
 .token-info-detail{
     background: #262626;
     color: rgb(255, 254, 254);
-    padding: 30px 20px;
-    border-radius: 10px;
+    padding: 1.875em 1.25em;
+    border-radius: 0.625em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 1.5625em;
+    margin-bottom: 1.25em;
 }
 
 /* Footer Styles */
@@ -421,12 +432,12 @@ b{
     color: white;
     width: 100%;
     text-align: center;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
 }
 .icons i{
     color: green;
-    font-size: 20px;
-    margin: 10px;
+    font-size: 1.25em;
+    margin: 0.625em;
 }
 .icons i:hover{
     color: white;
@@ -446,7 +457,7 @@ b{
    .bottom-part .but1,
    .bottom-part .but2{
         margin: auto;
-        margin-top: 30px;
+        margin-top: 1.875em;
         text-align: center;
         width: 100%;
     }
@@ -454,7 +465,7 @@ b{
 
 @media screen and (min-width:1000px) {
     .navbar {
-        padding: 20px 30px;
+        padding: 1.25em 1.875em;
     }
     #drop{
         display: none;
@@ -476,13 +487,13 @@ b{
         text-align: center;
         margin-top: 0px;
         padding: 0;
-        margin-right: 15px;
+        margin-right: 0.9375em;
     }
     .menu li a{
         display: inline-block;
         width: 100%;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 0.9375em;
         transition: all 0.1s ease;
     }
     .menu li a:hover{
@@ -496,19 +507,19 @@ b{
     .about-section{
         background: #262626;
         color: rgb(255, 254, 254);
-        padding: 30px 40px;
-        border-radius: 10px;
+        padding: 1.875em 2.5em;
+        border-radius: 0.625em;
         width: 70%;
         margin-left: auto;
-        margin-right: 30px;
+        margin-right: 1.875em;
     }
     .about-section .title{
         text-align: center;
         position: relative;
-        font-size: 40px;
+        font-size: 2.5em;
         font-weight: 500;
-        margin-bottom: 60px;
-        padding-bottom: 20px;
+        margin-bottom: 3.75em;
+        padding-bottom: 1.25em;
         font-family: 'Ubuntu', sans-serif;
     }
     .about-section .title::before{
@@ -516,43 +527,43 @@ b{
         position: absolute;
         bottom: 0px;
         left: 50%;
-        width: 180px;
-        height: 3px;
+        width: 11.25em;
+        height: 0.1875em;
         background: #111;
         transform: translateX(-50%);
     }
     .about-section .title::after{
         position: absolute;
-        bottom: -12px;
+        bottom: -0.9375em;
         left: 50%;
-        font-size: 20px;
+        font-size: 1.25em;
         color: green;
-        padding: 5px;
+        padding: 0.3125em;
         background: #262626;
         transform: translateX(-50%);
         content: "who we are";
     }
     .points{
         list-style: circle;
-        margin-left: 30px;
+        margin-left: 1.875em;
     }
     .points li{
-        margin-bottom: 10px;
+        margin-bottom: 0.625em;
     }
     .left h3{
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
     }
     .left .explain{
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
     }
     .img-wrap{
         width: 40%;
-        margin: 30px auto 0 auto;
+        margin: 1.875em auto 0 auto;
     }
     .explain-img{
         display: block;
         width: 100%;
-        border-radius: 10px;
+        border-radius: 0.625em;
     }
     
 
@@ -564,10 +575,10 @@ b{
     .services-section .title{
         text-align: center;
         position: relative;
-        font-size: 40px;
+        font-size: 2.5em;
         font-weight: 500;
-        margin-bottom: 60px;
-        padding-bottom: 20px;
+        margin-bottom: 3.75em;
+        padding-bottom: 1.25em;
         font-family: 'Ubuntu', sans-serif;
         color: white;
     }
@@ -576,18 +587,18 @@ b{
         position: absolute;
         bottom: 0px;
         left: 50%;
-        width: 180px;
-        height: 3px;
+        width: 11.25em;
+        height: 0.1875em;
         background: #111;
         transform: translateX(-50%);
     }
     .services-section .title::after{
         position: absolute;
-        bottom: -12px;
+        bottom: -0.9375em;
         left: 50%;
-        font-size: 20px;
+        font-size: 1.25em;
         color: green;
-        padding: 5px;
+        padding: 0.3125em;
         background: #111;
         transform: translateX(-50%);
         content: "Use Case";
@@ -595,8 +606,8 @@ b{
     .use-case{
         width: 20%;
         height: 33vh;
-        margin: 20px auto 20px auto;
-        border-radius: 10px;
+        margin: 1.25em auto 1.25em auto;
+        border-radius: 0.625em;
 
     }
     .icon{
@@ -608,7 +619,7 @@ b{
     }
     .icon i{
         display: block;
-        font-size: 50px;
+        font-size: 3.125em;
     }
     .mining{
         transition: all .2s ease-in;
@@ -630,11 +641,11 @@ b{
     .roadmap-section{
         background: #262626;
         color: rgb(255, 254, 254);
-        padding: 30px 40px;
-        border-radius: 10px;
+        padding: 1.875em 2.5em;
+        border-radius: 0.625em;
         width: 70%;
         margin-left: auto;
-        margin-right: 30px;
+        margin-right: 1.875em;
     }
 
     /* Token Desktop Styles */
@@ -647,15 +658,15 @@ b{
     .token-info-detail{
         margin: auto;
         width: 40%;
-        color: gray;
+        color: white;
     }
     .token-info-detail h3{
         color: white;
         text-align: center;
         position: relative;
-        font-size: 20px;
+        font-size: 1.25em;
         font-weight: 500;
-        padding-bottom: 20px;
+        padding-bottom: 1.25em;
         font-family: 'Ubuntu', sans-serif;
     }
     .token-info-chart{
